@@ -9,7 +9,44 @@
  * Released under MIT License. See LICENSE.txt or http://opensource.org/licenses/MIT
 */
 
+/****
+ * Grapnel.js
+ * https://github.com/EngineeringMode/Grapnel.js
+ *
+ * @author Greg Sabia Tucker <greg@artificer.io>
+ * @link http://artificer.io
+ * @version 0.5.6
+ *
+ * Released under MIT License. See LICENSE.txt or http://opensource.org/licenses/MIT
+*/
+
+/****
+ * Grapnel.js
+ * https://github.com/EngineeringMode/Grapnel.js
+ *
+ * @author Greg Sabia Tucker <greg@artificer.io>
+ * @link http://artificer.io
+ * @version 0.5.6
+ *
+ * Released under MIT License. See LICENSE.txt or http://opensource.org/licenses/MIT
+*/
+
+/****
+ * Grapnel.js
+ * https://github.com/EngineeringMode/Grapnel.js
+ *
+ * @author Greg Sabia Tucker <greg@artificer.io>
+ * @link http://artificer.io
+ * @version 0.5.6
+ *
+ * Released under MIT License. See LICENSE.txt or http://opensource.org/licenses/MIT
+*/
+
 ;(function(root){
+
+  if(typeof window !== 'undefined') {
+    root = window;
+  }
 
     function Grapnel(opts){
         "use strict";
@@ -29,7 +66,7 @@
             root.addEventListener('popstate', function(e){
                 // Make sure popstate doesn't run on init -- this is a common issue with Safari and old versions of Chrome
                 if(self.state && self.state.previousState === null) return false;
-                
+
                 self.trigger('navigate');
             });
         }
