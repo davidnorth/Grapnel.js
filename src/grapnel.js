@@ -9,39 +9,6 @@
  * Released under MIT License. See LICENSE.txt or http://opensource.org/licenses/MIT
 */
 
-/****
- * Grapnel.js
- * https://github.com/EngineeringMode/Grapnel.js
- *
- * @author Greg Sabia Tucker <greg@artificer.io>
- * @link http://artificer.io
- * @version 0.5.6
- *
- * Released under MIT License. See LICENSE.txt or http://opensource.org/licenses/MIT
-*/
-
-/****
- * Grapnel.js
- * https://github.com/EngineeringMode/Grapnel.js
- *
- * @author Greg Sabia Tucker <greg@artificer.io>
- * @link http://artificer.io
- * @version 0.5.6
- *
- * Released under MIT License. See LICENSE.txt or http://opensource.org/licenses/MIT
-*/
-
-/****
- * Grapnel.js
- * https://github.com/EngineeringMode/Grapnel.js
- *
- * @author Greg Sabia Tucker <greg@artificer.io>
- * @link http://artificer.io
- * @version 0.5.6
- *
- * Released under MIT License. See LICENSE.txt or http://opensource.org/licenses/MIT
-*/
-
 ;(function(root){
 
   if(typeof window !== 'undefined') {
